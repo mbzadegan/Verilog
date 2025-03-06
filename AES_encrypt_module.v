@@ -9,6 +9,7 @@ module aes_rng (
 
     // Instantiate AES encryption module
     // This AES module should be implemented separately
+    
     aes_encrypt aes_inst (
         .clk(clk),
         .reset(reset),
