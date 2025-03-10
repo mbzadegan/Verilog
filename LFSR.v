@@ -20,7 +20,7 @@ module lfsr_random (
         end
     end
 
-    // Output the current state of the LFSR as the random number
+    // Output the current state of the LFSR as the random number.
     always @(*) begin
         random_number = lfsr;
     end
