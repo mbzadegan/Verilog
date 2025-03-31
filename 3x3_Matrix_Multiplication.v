@@ -6,7 +6,7 @@ module matrix_multiplication_3x3 (
     integer i, j, k;
 
     always @(*) begin
-        // Initialize the result matrix C to 0
+        // Initialize the result matrix C to 0.
         for (i = 0; i < 3; i = i + 1) begin
             for (j = 0; j < 3; j = j + 1) begin
                 C[i][j] = 0;
